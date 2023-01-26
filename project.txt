@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  href="style.css">
+<h1><center>CAR RENTAL SYSTEM</centre></h1>
+<style>
+button
+{
+  font-size:20px;
+  background-color:white;
+  color:white;
+  border-radius:20px;
+  margin:5px;
+}
+input:focus
+{
+background-color:lightblue;
+}
+</style>
+</head>
+<body style="background-color:#FFE5B4;">
+<div class="header">
+<table>
+<tr>
+<td>
+<image src="rental-car-logo.png"alt="no image found height="50px" width="200px">
+</image>
+</td>
+<td>
+<div align:left>                                                                                                                               
+<button ><a href="file:///C:/Users/HP/Downloads/project%20signup%20form.html"target=blank>signup</a></button>
+<button><a href="file:///C:/Users/HP/OneDrive/Desktop/html%20project/project%20login%20form.html"target=blank>login</a></button>
+<button><a href="file:///C:/Users/HP/OneDrive/Desktop/html%20project/manage%20bookings.html"target=blank>manage booking</a></button>
+<button><a href="file:///C:/Users/HP/OneDrive/Desktop/html%20project/popular%20locations.html"target=blank>popular locations</a></button>
+</div>
+</td>
+</tr>
+</div>
+</table>
+<div>
+<table>
+<tr>
+<center>
+<video controls autoplay muted>
+<source src="cars vedio.mp4" height="500px" width="800px">
+</video>
+</center>
+</tr>
+<tr>
+<td>
+<image source src="cars.png" height="200px" width="250px">
+</image>
+</td>
+<td>
+<image source src="cars 1.png" height="200px" width="250px">
+</image></td>
+<td>
+<image source src="cars 2.png" height="200px" width="250px">
+</image></td>
+<td>
+<image source src="cars 3.png" height="200px" width="250px">
+</image></td>
+<td>
+<image source src="cars 6.png" height="200px" width="250px">
+</image></td>
+<td>
+<image source src="cars 7.png" height="200px" width="200px">
+</image></td>
+</tr>
+</div>
+<tr><td colspan="2"><h1>lets find your ideal car </h1></td>
+<td></td>
+<td colspan="2"><h1>our popular destinations</h1></td>
+</tr>
+<tr>
+<td colspan="2"><h1>choose location</h1>
+<p>Enter pickup location</p><br>  
+    <input type="text" name="pickup location"><br> 
+
+    <p>Enter dropdown location</p><br>  
+    <input type="text" name="dropdown location"><br> 
+
+<h1>purpose of rental</h1>
+<input type="radio" name="business" value="business"> business <br>  
+<input type="radio" name="liesure" value="liesure"> liesure<br> 
+</td>
+<td></td>
+<td><image src="taj mahal.png"alt="no image found height="50px" width="100px">
+</image>
+<p><b>Taj mahal,Tajganj</br> Agra, Uttar Pradesh</b></p></td>
+<td><image src="redfort.png"alt="no image found height="50px" width="100px">
+</image>
+<p><b>Lal Qila, Chandni Chowk</br> New Delhi, Delhi</b></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>pickup date</p>
+<input type="date" id="start" name="trip-start">
+<p>pickup time</p>
+<input type="time" id="appt" name="appt">
+</td>
+<td>
+<p>dropoff date</p>
+<input type="date" id="start" name="trip-start">
+<p>dropoff time</p>
+<input type="time" id="appt" name="appt">
+</td>
+<td></td>
+<td><image src="banglore.png"alt="no image found height="50px" width="100px">
+</image>
+<p><b>Lalbagh Botanical Garden</br>Mavalli, Bengaluru, Karnataka 560004</b></p></td>
+<td><image src="golconda fort.png"alt="no image found height="50px" width="100px">
+</image>
+<p><b>Khair Complex, Ibrahim Bagh</br> Hyderabad, Telangana 500008</b></p>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<input type="submit" value="search" style="width: 400px; height: 25px"> 
+</tr>
+<tr>
+</tr>
+</table>
+</body>
+</html>
